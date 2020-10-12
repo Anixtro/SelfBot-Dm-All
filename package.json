@@ -2,8 +2,8 @@
   "//1": "describes your app and its dependencies",
   "//2": "https://docs.npmjs.com/files/package.json",
   "//3": "updating this file will download and update your packages",
-  "name": "dinleveeglen",
-  "version": "0.0.1",
+  "name": "CanerBaba25",
+  "version": "2.1.0",
   "description": "A simple Node app built on Express, instantly up and running.",
   "main": "server.js",
   "scripts": {
@@ -38,7 +38,7 @@
     "node": "8.x"
   },
   "repository": {
-    "url": "https://glitch.com/edit/#!/dinleveeglen"
+    "url": "https://github.com/CanerBaba25/SelfBot-Dm-All"
   },
   "license": "MIT",
   "keywords": [
