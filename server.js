@@ -226,8 +226,7 @@ client.on("message", async message => {
 })
 
 /**
-	Bu alt yapı ACARYS
-	adlı kişiye ait olup, İhsan Baki DOĞAN tarafından kanalı için düzenlenmiştir.
+	This files are made by CanerBaba25.
 */
 
 client.login(client.ayarlar.token)
