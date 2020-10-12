@@ -5,14 +5,7 @@ exports.run = (client, message, args) => {
   let mesaj = args.slice(0).join(' ');
   
       
-if (mesaj.length < 1) 
-  
-  var yazi = new Discord.RichEmbed()
-      .setColor('RANDOM')
-      .setDescription('Birşeyler Yaz')
-      .setFooter("OFRP FiveM", 'https://static.wixstatic.com/media/1035f8_6ce8f67eb278417593c9e27446f32ddb~mv2.png/v1/fill/w_640,h_900,al_c,q_90,usm_0.66_1.00_0.01/1035f8_6ce8f67eb278417593c9e27446f32ddb~mv2.webp')
-  
-  return message.channel.sendEmbed(yazi);
+if (mesaj.length < 1) return message.channel.sendEmbed('Birşeyler Yazın');
 
   message.delete();
 
@@ -54,3 +47,4 @@ exports.help = { // Ana ayarları belirtiyoruz.
 	aciklama: 'Bu bir örnek komuttur.', // Yardımda gözüken açıklamayı belirtiyoruz.
 	kullanim: 'özel' // Yardımda gözükecek kullanımı belirtiyoruz.
 }
+
